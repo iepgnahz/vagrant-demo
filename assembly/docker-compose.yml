@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  jenkins:
+    image: jenkins:alpine
+    ports:
+      - 80:8080
+    networks:
+      main:
+networks:
+  main:
