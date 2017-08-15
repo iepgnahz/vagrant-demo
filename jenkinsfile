@@ -3,13 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                node ''{
-                }
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
+                java -jar slave.jar -jnlpUrl http://localhost:8080/computer/mac_host/slave-agent.jnlp -secret dce89081cdbe0477133c0a8959d5e942d802d251a855920cf54dde2f5c24be9a
             }
         }
         stage('Deploy') {
