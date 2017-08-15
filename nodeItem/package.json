@@ -1,0 +1,17 @@
+{
+  "name": "nodeitem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    "should": "^11.2.1"
+  }
+}

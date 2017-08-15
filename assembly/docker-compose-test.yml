@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nodejs:
+    image: node:6.9.5
+    ports:
+      - 3000:3000
+    volumes:
+      - ../nodeItem:/var/app
+    command: bash -c "cd /var/app && npm i && npm test"
+    networks:
+      main:
+networks:
+  main:

@@ -16,7 +16,7 @@ ubuntu-xenial-16.04-cloudimg-console.log
 *.iml
 *.ipr
 out/
-
+nodeItem/node_modules
 ### NetBeans ###
 nbproject/private/
 build/
